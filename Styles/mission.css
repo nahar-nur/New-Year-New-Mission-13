@@ -19,14 +19,55 @@
     transform: translate(-50%, -50%);
     
     color: #fff;
-    padding: 20px 40px;
-    font-size: 72 px;
+    padding:10px 20px;
+    font-size: 48 px;
     font-weight: 700;
     text-align: center;
 }
-.baner-title{
-    font-size:40px ;
+.banner-title{
+    font-size:20px ;
 }
-.banner-descrition{
+.banner-description{
+    font-size: 32px;
+}
+body {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Arial', sans-serif; 
+      
+  }
+  
+.offer-section{
+display: block;
+justify-content: center;
+margin-top: 72px;
+margin-bottom: 72px;
+}
+.offer-text{
+    text-align: center;
+}
+.discount{
     font-size: 72px;
+    font-weight: 700;
+    color: hsl(0, 93%, 52%);
+    margin-bottom: 48px;
+}
+
+.offer-title{
+    font-size: 20px;
+font-weight: 500px;
+color: hsl(0, 93%, 52%);
+margin-bottom: 32px;
+}
+.offer-list{
+    font-size: 40px;
+font-weight: 700;
+margin-bottom: 48px;   
+}
+.offer-img{
+    height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,0 +1,32 @@
+/* Banner Style */
+*{
+    margin: 0;
+}
+.header{
+    position: relative;
+    display: inline-block;
+}
+.banner img{
+    display: block;
+    width: 100% ;
+    height: auto;
+
+}
+.over-lay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 72 px;
+    font-weight: 700;
+    text-align: center;
+}
+.baner-title{
+    font-size:40px ;
+}
+.banner-descrition{
+    font-size: 72px;
+}

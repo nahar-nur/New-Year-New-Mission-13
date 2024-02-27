@@ -231,3 +231,39 @@ margin-bottom: 48px;
     font-size: 72px;
     margin-bottom: 36px;
 }
+.holiday-pic{
+    width: 1140px;
+    height: 500px;
+    margin-top: 72px;
+    display: flex;
+    gap: 20px;
+    z-index: -10;
+
+    
+}
+.rectangle-pic{
+    width: 1140px;
+    margin-bottom: 72px;
+}
+.portfolio-text{
+    text-align: left;
+    margin-bottom: 60px;
+}
+.portfolio-title {
+    text-align: left;
+    margin-bottom: 36px; 
+}
+.portfolio-tag{
+    margin-bottom: 36px;
+}
+.portfolio-description{
+    margin-botom: 48px;
+}
+.portfolio-pic{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.portfolio-pic img{
+    width: 320px;
+    height: 350 px;
+}
